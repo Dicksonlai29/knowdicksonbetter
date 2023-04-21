@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Century Gothic', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(7, 7, 42);
+    color:aliceblue;
+}
+
+#header{
+    min-height: 1000px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    text-shadow: 2px 2px 3px rgba(7, 7, 42, 0.7);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header img{
+    display: block;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 10px 20px 20px 10px rgba(7, 7, 42, 0.7);
+}
+
+#title{
+    padding-top: 20%;
+    padding-left:10%;
+    color:aliceblue;
+    font-size:36px;
+    font-style: italic;
+}
+
+#subtitle{
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 40px;
+    margin: 0px;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    position: absolute;
+    bottom: -220px;
+    width: 100%;
+}
+
+nav a::before{
+    content:'| ';
+    color: aliceblue;
+}
+
+nav a{
+    display: inline;
+    text-transform: uppercase;
+    font-family: Futura;
+    color: aliceblue;
+    transition: color 1s, font-size 0.3s ease-in-out;
+}
+
+nav a:hover{
+    color:rgb(255, 179, 179);
+    font-size: 24px;
+    
+}
+
+#content{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#content p{
+    text-align: justify;
+}
+
+#content h2{
+    font-size: 36px;
+    line-height: 75%;
+}
+
+.description{
+    display: inline-block;
+    width: 400px;
+    line-height: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.pictures{
+    display: inline-block;
+}
+
+.pictures img{
+    object-fit: cover;
+    display: block;
+    padding-bottom: 5%;
+    
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: Futura,sans-serif;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.artwork{
+    display: inline-block;
+    margin-left:5%;  
+    margin-top: 1%;
+}
+
+.artwork img{
+    transition: 0.5s all ease-in-out;
+}
+.artwork img:hover{
+    height:550px;
+    width: auto;
+}
+
+.artwork-2 img{
+    transition: 0.5s all ease-in-out;
+}
+.artwork-2 img:hover{
+    height:650px;
+    width: auto;
+}
+#drawing-description{
+    line-height: 150%;
+}
+
+#drawing-description a{
+    color:rgb(255, 179, 179);
+}
+
+.text-only{
+    line-height: 150%;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-only h3{
+    text-align: center;
+}
+
+#ending{
+    font-family: Futura;
+    margin: 10%;
+    font-style: italic;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+}
